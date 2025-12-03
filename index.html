@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+    <a href="#">Home</a>
+    <a href="#">Search</a>
+    <a href="#">Your Library</a>
+    <a href="#">Premium</a>
+    <a href="#">Create</a>
+</div>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+    <div class="left">
+        <div id="hamburger" class="hamburger">☰</div>
+
+        <!-- Spotify Brand -->
+        <div class="brand">
+            <div class="dot">
+                <img src="spotify.svg" class="logo">
+            </div>
+            <div class="name">Spotify</div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Your Library</a>
+        <a href="#">Premium</a>
+        <a href="#">Create</a>
+    </div>
+
+    <div class="right">
+        <div id="searchBtn" class="icon-btn">🔍</div>
+        <div class="icon-btn">👤</div>
+    </div>
+
+    <!-- Search Overlay -->
+    <div id="searchOverlay" class="search-overlay">
+        <div class="search-card">
+            🔍
+            <input id="searchInput" placeholder="Search here..." />
+            <div id="closeSearch">✖</div>
+        </div>
+    </div>
+</nav>
+
+<!-- MAIN DEMO CONTENT -->
+<main class="demo">
+    <h2>Spotify Navigation Demo</h2>
+    <p>This is the separated HTML/CSS/JS version.</p>
+</main>
+
+<!-- BOTTOM NAV -->
+<nav class="bottom-nav">
+    <a href="#" class="bn-item active">
+        <div class="ico">🏠</div><div>Home</div>
+    </a>
+    <a href="#" class="bn-item">
+        <div class="ico">🔎</div><div>Search</div>
+    </a>
+    <a href="#" class="bn-item">
+        <div class="ico">📚</div><div>Your Library</div>
+    </a>
+    <a href="#" class="bn-item">
+        <div class="ico">⭐</div><div>Premium</div>
+    </a>
+    <a href="#" class="bn-item">
+        <div class="ico">＋</div><div>Create</div>
+    </a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
